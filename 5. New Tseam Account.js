@@ -1,6 +1,5 @@
 function newTseamAccount(arr) {
     let games = arr.shift().split(` `);
-
     for (let i = 0; i < arr.length; i++) {
         let command = arr[i].split(` `)[0];
         let gameName = arr[i].split(` `)[1];
